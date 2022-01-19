@@ -1,0 +1,23 @@
+Pagina GIT:
+https://github.com/ssapollnik/ValheimServer
+
+Primera vez:
+En el file explorer van a C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\
+Click derecho "Git Bash here"
+git config --global user.email "SuMail"
+git clone https://github.com/ssapollnik/ValheimServer.git
+Copiar todo lo relacionado al server "Anonistas" de C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\ValheimServer\ a C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\
+
+Descargar última version de server:
+En el file explorer van a C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\ValheimServer
+Click derecho "Git Bash here"
+git pull origin master
+Copiar todo lo relacionado al server "Anonistas" de C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\ValheimServer\ a C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\
+
+Subir ultima version del server a git:
+Copiar todo lo relacionado al server "Anonistas" de C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\ a C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\ValheimServer\
+En el file explorer van a C:\Users\SuUser\AppData\LocalLow\IronGate\Valheim\worlds\ValheimServer
+Click derecho "Git Bash here"
+git add Anonistas*
+git commit -m "Anonistas"
+git push origin master
